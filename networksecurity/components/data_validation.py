@@ -24,8 +24,7 @@ class DataValidation:
         try:
             return pd.read_csv(file_path)
         except Exception as e:
-            raise NetworkSecurityException(e,sys)    
-        
+            raise NetworkSecurityException(e,sys)
         
     def validate_number_of_columns(self,dataframe:pd.DataFrame)->bool:
         try:
@@ -37,7 +36,6 @@ class DataValidation:
             return False
         except Exception as e:
             raise NetworkSecurityException(e,sys)
-        
         
     def detect_dataset_drift(self,base_df,current_df,threshold=0.05)->bool:
         try:
@@ -65,9 +63,9 @@ class DataValidation:
             write_yaml_file(file_path=drift_report_file_path,content=report)
 
         except Exception as e:
-            raise NetworkSecurityException(e,sys)    
-
-
+            raise NetworkSecurityException(e,sys)
+        
+    
     def initiate_data_validation(self)->DataValidationArtifact:
         try:
             train_file_path=self.data_ingestion_artifact.trained_file_path
@@ -110,4 +108,7 @@ class DataValidation:
             )
             return data_validation_artifact
         except Exception as e:
-            raise NetworkSecurityException(e,sys)        
+            raise NetworkSecurityException(e,sys)
+
+
+
