@@ -1,0 +1,16 @@
+creation_timestamp: 1773820443492
+current_stage: None
+deployment_job_state: null
+description: null
+last_updated_timestamp: 1773820443492
+model_id: m-166ee15f1bf746a188817f6628cd3e91
+name: RandomForestClassifier
+run_id: 86d28b6875b242c4b5db0e05b01969e7
+run_link: null
+source: models:/m-166ee15f1bf746a188817f6628cd3e91
+status: READY
+status_message: null
+storage_location: file:///D:/PYTHON/NetworkSecurityProject/mlruns/0/models/m-166ee15f1bf746a188817f6628cd3e91/artifacts
+user_id: null
+version: 3
+workspace: default

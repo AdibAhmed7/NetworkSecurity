@@ -1,0 +1,10 @@
+artifact_location: file:///D:/PYTHON/NetworkSecurityProject/mlruns/0/models/m-166ee15f1bf746a188817f6628cd3e91/artifacts
+creation_timestamp: 1773820437116
+experiment_id: '0'
+last_updated_timestamp: 1773820443130
+model_id: m-166ee15f1bf746a188817f6628cd3e91
+model_type: null
+name: model
+source_run_id: 86d28b6875b242c4b5db0e05b01969e7
+status: 2
+status_message: null
